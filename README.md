@@ -1,4 +1,4 @@
-# 🧾 Chase Bank Statement Analyzer with Gemini AI
+# 🧾 Bank Statement Analyzer with Gemini AI
 
 This Python project analyzes Chase (or any bank) CSV statements and uses **Google Gemini AI** to classify each **debit** transaction as a _"need"_ or _"want"_ based on its description.
 

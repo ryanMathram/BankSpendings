@@ -25,7 +25,7 @@ except Exception as e:
 money = float(input("How much money do you have: "))
 ques = input("What is your question: ")
 
-print(model.generate_content(f"Based on details on bank statements details {df["Details", 5]} and price {df["Amount"],5}, Can this user purchase this item given the current balance: {money}").text)
+print(model.generate_content(f"Based on  bank statements details {df["Details", 5]} and price {df["Amount"],5}, Can this user purchase this item given the current balance: {money}").text)
 
 
 
